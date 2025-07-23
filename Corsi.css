@@ -1,0 +1,69 @@
+
+.Immagine img {
+  max-height: 420px;
+  width: 420px;
+  display: block;
+  margin-left: 700px;  
+  border-radius: 50%;  
+  object-fit: cover;  
+  height: 180px;       
+  width: 180px;        
+ 
+}
+
+a {
+  color: darkblue;
+  text-decoration: none; 
+  font-weight: italic;
+}
+
+a:hover {
+  color: rgb(191, 250, 11);
+}
+
+.Tetulo 
+     {
+  font-family: "Inria Serif", serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav a {
+  position: relative;
+  text-decoration: none;
+  color: #333;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 50%;
+  height: 2px;
+  background-color: #1c510c;
+  transition: width 0.7s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+.Betulla-Titolo {
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;
+    font-size: 51px;
+    text-align: center;
+    padding: 15px;
+}
